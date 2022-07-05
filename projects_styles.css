@@ -1,0 +1,87 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Poppins";
+  accent-color: #13ff00;
+}
+
+.navbar-brand
+{
+  padding-left: 1.5rem;
+  color: #13ff00;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item
+{
+  padding-right: 0.75rem;
+}
+
+.container-fluid
+{
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.project
+{
+  background-color: #606060;
+  padding: 3rem 5rem;
+}
+
+.project-in
+{
+  background-color: #000000;
+  margin: 3rem 5rem;
+  border-radius: 2rem;
+  padding: 4rem 7rem;
+}
+
+h1
+{
+  color: #13ff00;
+  font-size: 3.5rem;
+  font-weight: 600px;
+  padding-bottom: 3rem;
+}
+
+.link
+{
+  text-decoration: underline;
+  text-decoration-color: #e2e2e2;
+  color: #13ff00;
+}
+
+.link:hover
+{
+  text-decoration: underline;
+  text-decoration-color: #13ff00;
+  color: #e2e2e2;
+}
+
+h5
+{
+  color: #e2e2e2;
+  font-size: 1.5rem;
+  font-weight: 580px;
+}
+
+
+.bottom-container
+{
+  background-color: #000000;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #3f3f3f;
+}
+
+.detail
+{
+  color: #606060;
+  padding-bottom: 1.5rem;
+}

@@ -1,0 +1,355 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Poppins";
+  accent-color: #13ff00;
+}
+
+.navbar-brand
+{
+  padding-left: 1.5rem;
+  color: #13ff00;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item
+{
+  padding-right: 0.75rem;
+}
+
+.btn-light
+{
+  margin-top: 2rem;
+  margin-right: 2rem;
+  border-radius: 50%;
+}
+
+.b1
+{
+  margin-left: 15%;
+}
+
+h4
+{
+  font-weight: bold;
+  padding-top: 0.8rem;
+  padding-left: 15%;
+  font-size: 3rem;
+  text-shadow: 0.7rem 0.7rem #3f3f3f;
+}
+
+h2
+{
+  color: #13ff00;
+  padding-left: 15%;
+  padding-top: 9%;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.name
+{
+  text-decoration: underline;
+}
+
+.container-fluid
+{
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.mcontent
+{
+  font-size: 1.2rem;
+  padding-left: 15%;
+  padding-top: 2.5rem;
+  color: #606060;
+}
+
+.resume-link
+{
+  margin-left: 15%;
+  margin-top: 2rem;
+}
+
+.top-container
+{
+  width: 100%;
+  height: 44rem;
+  display: flex;
+  color: white;
+}
+
+.left-section
+{
+  padding-top: 3rem;
+  width: calc(80% - 15rem) ;
+  height: 100%;
+  background: #202020;
+  box-sizing: border-box;
+}
+
+.home
+{
+  display: inline;
+  color: #13ff00;
+  margin-left: 60%;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.right-section
+{
+  width: calc(20% + 15rem) ;
+  height: 100%;
+  background: #3f3f3f;
+  border-left: 15rem solid #202020;
+  border-top: 44rem solid transparent;
+}
+
+.about{
+  display: inline;
+  margin-left: 70%;
+  top: 25rem;
+  z-index: +1;
+  color: #e2e2e2;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.circle
+{
+  position: relative;
+  width: 40rem;
+  height: 40rem;
+  border-top: 0.5rem solid #13ff00;
+  border-bottom: 0.5rem solid #202020;
+  border-left: 0.5rem solid #202020;
+  border-right: 0.5rem solid #13ff00;
+  transform: rotate(26.25deg);
+  border-radius: 40rem;
+  top: -42rem;
+  left: -27.5rem;
+  padding: 2rem;
+}
+
+.profile
+{
+  max-width: 35rem;
+  max-height: 35rem;
+  transform: rotate(-20deg);
+  filter: grayscale(20);
+  border-radius: 100%;
+}
+
+.about-me
+{
+  padding: 8rem 15% 5rem;
+  text-align: center;
+  background-color: #000000;
+}
+
+h3
+{
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  padding-bottom: 2rem;
+}
+
+.am
+{
+  color: #606060;
+  font-size: 1.5rem;
+}
+
+.am-green
+{
+  color: #13ff00;
+}
+
+.edu
+{
+  background-color: #202020;
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+.edu-time
+{
+  color: #e2e2e2;
+}
+
+h5
+{
+  color: #13ff00;
+}
+
+.edu-centre
+{
+  color: #606060;
+  padding-bottom: 3rem;
+}
+
+.edu-h3
+{
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  padding-bottom: 2rem;
+  padding-top: 5rem;
+}
+
+.edu-centreL
+{
+  padding-bottom: 0;
+  color: #606060;
+}
+
+.ed
+{
+  font-size: 8rem;
+  font-weight: bolder;
+  padding-left: 45%;
+  color: #3f3f3f;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+
+.contact
+{
+  background-color: #000000;
+  margin-top: 0;
+  padding-bottom: 8rem;
+  padding-top: 8rem;
+  display: flex;
+}
+
+.con-details
+{
+  background-color: #3f3f3f;
+  margin-left: 10%;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  width: 45%;
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+}
+
+.con-h4
+{
+  color: #13ff00;
+  font-size: 3rem;
+  font-weight: bolder;
+  text-shadow: none;
+  padding-bottom: 3.5rem;
+  padding-left: 7rem;
+}
+
+.facd
+{
+  padding-right: 2rem;
+}
+
+.cd
+{
+  padding-bottom: 2rem;
+  color: #e2e2e2;
+  padding-left: 8rem;
+  font-size: 1.1rem;
+}
+
+.con-me
+{
+  background-color: #242424;
+  margin-right: 10%;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  width: 45%;
+}
+
+.labeln
+{
+  color: #e2e2e2;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.labele
+{
+  color: #e2e2e2;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.labelm
+{
+  color: #e2e2e2;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.label-name
+{
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  width: 24.5rem;
+  background-color: #5a5a5a;
+  border-color: #000000;
+}
+
+.label-email
+{
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 25rem;
+  background-color: #5a5a5a;
+  border-color: #000000;
+}
+
+.label-message
+{
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 23rem;
+  height: 18rem;
+  background-color: #5a5a5a;
+  border-color: #000000;
+}
+
+.fa-paper-plane
+{
+  padding-right: 0.5rem;
+}
+.send
+{
+  padding: 0.5rem 3.5rem;
+  background-color: #13ff00;
+  border-radius: 0.5rem;
+  border-color: #13ff00;
+  margin-left: 22rem;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+
+.bottom-container
+{
+  background-color: #3f3f3f;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  font-size: 1.4rem;
+}

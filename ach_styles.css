@@ -1,0 +1,87 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Poppins";
+  accent-color: #13ff00;
+}
+
+.navbar-brand
+{
+  padding-left: 1.5rem;
+  color: #13ff00;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item
+{
+  padding-right: 0.75rem;
+}
+
+.container-fluid
+{
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.ach
+{
+  background-color: #606060;
+  padding: 3rem 5rem;
+}
+
+.ach-in
+{
+  background-color: #000000;
+  margin: 3rem 5rem;
+  border-radius: 2rem;
+  padding: 5rem 7rem;
+}
+
+h1
+{
+  color: #13ff00;
+  font-size: 4rem;
+  font-weight: 700px;
+  padding-bottom: 3rem;
+}
+
+h5
+{
+  color: #e2e2e2;
+  font-weight: 580px;
+}
+
+.ach-in > a
+{
+  text-decoration: underline;
+  font-size: 1.3rem;
+  text-decoration-color: #e2e2e2;
+  color: #13ff00;
+}
+
+.ach-in > a:hover
+{
+  text-decoration: underline;
+  text-decoration-color: #13ff00;
+  color: #e2e2e2;
+  font-size: 1.3rem;
+}
+
+.detail
+{
+  color: #606060;
+  padding-bottom: 2rem;
+}
+
+.bottom-container
+{
+  background-color: #000000;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #3f3f3f;
+}
